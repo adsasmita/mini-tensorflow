@@ -21,7 +21,7 @@ class Node(object):
         self.value = None
         # A list of nodes that this node outputs to.
         self.outbound_nodes = []
-        # New property! Keys are the inputs to this node and
+        # Keys are the inputs to this node and
         # their values are the partials of this node with
         # respect to that input.
         self.gradients = {}
@@ -53,7 +53,6 @@ class Input(Node):
         # The base class constructor has to run to set all
         # the properties here.
         #
-        # The most important property on an Input is value.
         # self.value is set during `topological_sort` later.
         Node.__init__(self)
 
@@ -66,8 +65,8 @@ class Input(Node):
         # is zero.
         # The key, `self`, is reference to this object.
         self.gradients = {self: 0}
-        # Weights and bias may be inputs, so you need to sum
-        # the gradient from output gradients.
+        # Since weights and bias may be inputs,
+        # sum the gradient from output gradients.
         for n in self.outbound_nodes:
             self.gradients[self] += n.gradients[self]
 

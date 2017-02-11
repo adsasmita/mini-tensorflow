@@ -1,5 +1,5 @@
 # mini-tensorflow
-A simple Neural Network architecture that mimics [TensorFlow](https://www.tensorflow.org/)
+A simple Neural Network architecture that mimics [TensorFlow](https://www.tensorflow.org/) built from scratch using Numpy.
 
 ##How to Use
 
