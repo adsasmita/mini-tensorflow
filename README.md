@@ -1,5 +1,5 @@
 # mini-tensorflow
-A simple Neural Network architecture that mimics [TensorFlow](https://www.tensorflow.org/) built from scratch using Numpy.
+A simple Neural Network architecture that mimics [TensorFlow](https://www.tensorflow.org/) built from scratch using mostly Numpy.
 
 ##How to Use
 
@@ -19,7 +19,7 @@ To reduce computations and memory consumption, the backpropagated errors are min
 
 This project uses the [Boston Housing dataset](https://archive.ics.uci.edu/ml/datasets/Housing) to test the effectiveness of the NN architecture. ``neural-network.ipynb`` will try to predict Boston housing prices by minimizing the cost / error function of the model.
 
-After training (here the training epochs is set to ``1000``)the network will be able to predict prices of Boston housing!
+After training (here the training epochs is set to ``1000``) the network would be able to predict Boston housing prices.
 
 ##Dependencies
 
