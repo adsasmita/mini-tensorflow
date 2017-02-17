@@ -1,11 +1,11 @@
 # mini-tensorflow
 A simple Neural Network architecture that mimics [TensorFlow](https://www.tensorflow.org/) built from scratch using mostly Numpy.
 
-##How to Use
+##Files
 
-The code is presented in a [Jupyter Notebook](https://github.com/jupyter/notebook) / iPython notebook.
+The class architecture is contained in [`mini_tf.py`](https://github.com/adsasmita/mini-tensorflow/blob/master/mini_tf.py) file.
 
-Open or download [`neural-network.ipynb`](https://github.com/adsasmita/mini-tensorflow/blob/master/neural-network.ipynb) and run the cells in a Python 3 environment.
+The main code for testing the architecture is presented in a [Jupyter Notebook](https://github.com/jupyter/notebook) / iPython notebook for readability purposes. Simply open [`neural-network.ipynb`](https://github.com/adsasmita/mini-tensorflow/blob/master/neural-network.ipynb) on any desktop browser or download run the cells in a Python 3 environment.
 
 ##Overview
 
